@@ -5091,7 +5091,7 @@ babel-plugin-ember-modules-api-polyfill@^2.3.2:
   dependencies:
     ember-rfc176-data "^0.3.0"
 
-babel-plugin-ember-modules-api-polyfill@^2.6.0, babel-plugin-ember-modules-api-polyfill@^2.8.0:
+babel-plugin-ember-modules-api-polyfill@^2.8.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-ember-modules-api-polyfill/-/babel-plugin-ember-modules-api-polyfill-2.9.0.tgz#8503e7b4192aeb336b00265e6235258ff6b754aa"
   integrity sha512-c03h50291phJ2gQxo/aIOvFQE2c6glql1A7uagE3XbPXpKVAJOUxtVDjvWG6UAB6BC5ynsJfMWvY0w4TPRKIHQ==
@@ -6646,14 +6646,6 @@ broccoli@^3.4.2:
     underscore.string "^3.2.2"
     watch-detector "^1.0.0"
 
-browserslist@^2.2.2:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-2.10.0.tgz#bac5ee1cc69ca9d96403ffb8a3abdc5b6aed6346"
-  integrity sha512-WyvzSLsuAVPOjbljXnyeWl14Ae+ukAT8MUuagKVzIDvwBxl4UAwD1xqtyQs2eWYPGUKMeC3Ol62goqYuKqTTcw==
-  dependencies:
-    caniuse-lite "^1.0.30000780"
-    electron-to-chromium "^1.3.28"
-
 browserslist@^3.1.1, browserslist@^3.2.6:
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
@@ -6827,11 +6819,6 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000967:
   version "1.0.30000971"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000971.tgz#d1000e4546486a6977756547352bc96a4cfd2b13"
   integrity sha512-TQFYFhRS0O5rdsmSbF1Wn+16latXYsQJat66f7S7lizXW1PVpWJeZw9wqqVLIjuxDRz7s7xRUj13QCfd8hKn6g==
-
-caniuse-lite@^1.0.30000780:
-  version "1.0.30000784"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000784.tgz#129ced74e9a1280a441880b6cd2bce30ef59e6c0"
-  integrity sha1-EpztdOmhKApEGIC2zSvOMO9Z5sA=
 
 caniuse-lite@^1.0.30000844:
   version "1.0.30000877"
@@ -7773,22 +7760,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-releases@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/electron-releases/-/electron-releases-2.1.0.tgz#c5614bf811f176ce3c836e368a0625782341fd4e"
-  integrity sha512-cyKFD1bTE/UgULXfaueIN1k5EPFzs+FRc/rvCY5tIynefAPqopQEgjr0EzY+U3Dqrk/G4m9tXSPuZ77v6dL/Rw==
-
 electron-to-chromium@^1.3.133:
   version "1.3.137"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.137.tgz#ba7c88024984c038a5c5c434529aabcea7b42944"
   integrity sha512-kGi32g42a8vS/WnYE7ELJyejRT7hbr3UeOOu0WeuYuQ29gCpg9Lrf6RdcTQVXSt/v0bjCfnlb/EWOOsiKpTmkw==
-
-electron-to-chromium@^1.3.28:
-  version "1.3.30"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.30.tgz#9666f532a64586651fc56a72513692e820d06a80"
-  integrity sha512-zx1Prv7kYLfc4OA60FhxGbSo4qrEjgSzpo1/37i7l9ltXPYOoQBtjQxY9KmsgfHnBxHlBGXwLlsbt/gub1w5lw==
-  dependencies:
-    electron-releases "^2.1.0"
 
 electron-to-chromium@^1.3.341:
   version "1.3.344"
@@ -7892,25 +7867,6 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.11.0, ember-cli-babel@^6.12.0,
     amd-name-resolver "1.2.0"
     babel-plugin-debug-macros "^0.2.0-beta.6"
     babel-plugin-ember-modules-api-polyfill "^2.3.2"
-    babel-plugin-transform-es2015-modules-amd "^6.24.0"
-    babel-polyfill "^6.26.0"
-    babel-preset-env "^1.7.0"
-    broccoli-babel-transpiler "^6.5.0"
-    broccoli-debug "^0.6.4"
-    broccoli-funnel "^2.0.0"
-    broccoli-source "^1.1.0"
-    clone "^2.0.0"
-    ember-cli-version-checker "^2.1.2"
-    semver "^5.5.0"
-
-ember-cli-babel@^6.18.0:
-  version "6.18.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.18.0.tgz#3f6435fd275172edeff2b634ee7b29ce74318957"
-  integrity sha512-7ceC8joNYxY2wES16iIBlbPSxwKDBhYwC8drU3ZEvuPDMwVv1KzxCNu1fvxyFEBWhwaRNTUxSCsEVoTd9nosGA==
-  dependencies:
-    amd-name-resolver "1.2.0"
-    babel-plugin-debug-macros "^0.2.0-beta.6"
-    babel-plugin-ember-modules-api-polyfill "^2.6.0"
     babel-plugin-transform-es2015-modules-amd "^6.24.0"
     babel-polyfill "^6.26.0"
     babel-preset-env "^1.7.0"
@@ -8633,15 +8589,14 @@ ember-load-initializers@2.1.2:
     ember-cli-babel "^7.13.0"
     ember-cli-typescript "^2.0.2"
 
-ember-macro-helpers@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ember-macro-helpers/-/ember-macro-helpers-2.2.0.tgz#682bb887fda0679fd82cf981190f6dbba20b6e03"
-  integrity sha512-/ah3k6GFyrAxA2EE8XzNcrk1BlLw34TXgb+1tNdbWQj8pPoP0Notc00xiEXUDgwJ6kTT3KaEBujFyuIbwe3rsw==
+ember-macro-helpers@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/ember-macro-helpers/-/ember-macro-helpers-4.2.2.tgz#dfb28b2b21f9fd49ade599f68c99e73ce5692cdc"
+  integrity sha512-E46MnpjMu+ZXRw/5A1tADZKFJADGpSAcsclcaBNfV/B1aRPV3PTTnCpDvYC1wfJ4kwwUh0DRLDH/OpBv+/41pQ==
   dependencies:
-    ember-cli-babel "^6.18.0"
+    ember-cli-babel "^7.7.3"
     ember-cli-string-utils "^1.1.0"
     ember-cli-test-info "^1.0.0"
-    ember-weakmap "^3.0.0"
 
 ember-maybe-import-regenerator@0.1.6, ember-maybe-import-regenerator@^0.1.6:
   version "0.1.6"
@@ -8653,14 +8608,14 @@ ember-maybe-import-regenerator@0.1.6, ember-maybe-import-regenerator@^0.1.6:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
-ember-moment@7.8.1:
-  version "7.8.1"
-  resolved "https://registry.yarnpkg.com/ember-moment/-/ember-moment-7.8.1.tgz#6f77cf941d1a92e231b2f4b810e113b2fae50c5f"
-  integrity sha512-qEMWvJYOGGgyusUE9b+2wU7uWUG8aHkzdE6NBtGjaX5NU8SeByQkH8RkA+QKZonWQH3JncdbG6UBqRO1Ng3DYA==
+ember-moment@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/ember-moment/-/ember-moment-8.0.1.tgz#3a11929efeb7fb6bc5c1cc2c9e4c43bd9c500f80"
+  integrity sha512-YmhcMkH4OUwk1ynypxgWb8/O0E+v2HaZ49rk7yPbsf7EkzAyHn2tXrQPbFW4eWCKgHl+VoRoocLU9ShSIDI7qg==
   dependencies:
     ember-cli-babel "^6.7.2"
     ember-getowner-polyfill "^2.2.0"
-    ember-macro-helpers "^2.1.0"
+    ember-macro-helpers "^4.2.2"
 
 ember-network@0.3.1:
   version "0.3.1"
@@ -8819,15 +8774,6 @@ ember-truth-helpers@2.1.0:
   integrity sha512-BQlU8aTNl1XHKTYZ243r66yqtR9JU7XKWQcmMA+vkqfkE/c9WWQ9hQZM8YABihCmbyxzzZsngvldokmeX5GhAw==
   dependencies:
     ember-cli-babel "^6.6.0"
-
-ember-weakmap@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/ember-weakmap/-/ember-weakmap-3.1.1.tgz#2ae6e0080b5b80cf0d108f7752dc69ea9603dbd7"
-  integrity sha512-rfW3A1m3NFsHd/NuHyBkssU0Qf0zGcJmASGfhjZc7fIQeBZvSLIFYZTej+W+YBLPtED9h/SVW63DHTRY5PUR4Q==
-  dependencies:
-    browserslist "^2.2.2"
-    debug "^3.1.0"
-    ember-cli-babel "^6.3.0"
 
 ember-weakmap@^3.1.0:
   version "3.3.1"
