@@ -50,7 +50,7 @@
     "ember-simple-auth": "1.9.2",
     "ember-source": "3.27.5",
     "ember-state-services": "4.2.0",
-    "ember-truth-helpers": "2.1.0",
+    "ember-truth-helpers": "3.0.0",
     "eslint-plugin-babel": "5.3.1",
     "eslint-plugin-ember": "10.5.1",
     "eslint-plugin-promise": "4.3.1",
